@@ -1,3 +1,12 @@
+## [1.0.2](https://github.com/yeldiRium/more-rubin-scraper/compare/v1.0.1...v1.0.2) (2020-02-04)
+
+
+### Bug Fixes
+
+* Add shebang; Fix import in binary. ([006f07a](https://github.com/yeldiRium/more-rubin-scraper/commit/006f07a1d543b9a06b5445caac433dfdf3312c77))
+* Remove obsolete logging in entry point. ([f6b1d70](https://github.com/yeldiRium/more-rubin-scraper/commit/f6b1d709388cdf95aab832e285324875cba2bd28))
+* Remove obsolete parameter. ([8b84f8b](https://github.com/yeldiRium/more-rubin-scraper/commit/8b84f8b145b91b908ce19b254e54717fbaaac5df))
+
 ## [1.0.1](https://github.com/yeldiRium/more-rubin-scraper/compare/v1.0.0...v1.0.1) (2020-02-04)
 
 
