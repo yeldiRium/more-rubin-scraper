@@ -1,7 +1,8 @@
+#!/usr/bin/env node
 const { runCli } = require("command-line-interface");
 
 const loadConfiguration = require("../loadConfiguration");
-const rootCommand = require("../cli/commands/commands");
+const rootCommand = require("../cli/commands");
 
 (async () => {
   const configuration = loadConfiguration();
