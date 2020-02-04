@@ -18,7 +18,7 @@
   },
   "scripts": {
     "test": "yarn run test:lint && yarn run test:jest",
-    "test:jest": "jest",
+    "test:jest": "jest --passWithNoTests",
     "test:watch": "jest --watch",
     "test:lint": "eslint \"**/*.js\"",
     "test:lint:fix": "eslint --fix \"**/*.js\""
