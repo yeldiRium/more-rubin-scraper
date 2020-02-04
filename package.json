@@ -1,6 +1,6 @@
 {
   "name": "more-rubin-scraper",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A scraper for the more-rubin ratssystem.",
   "main": "bin/index.js",
   "repository": "git@github.com:yeldiRium/more-rubin-scraper.git",
