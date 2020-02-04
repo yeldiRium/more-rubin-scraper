@@ -11,12 +11,6 @@ const rootCommand = ({ configuration }) => {
 
     handle({ getUsage, options }) {
       console.log(getUsage({ commandPath: ["mrs"] }));
-
-      console.log("Current configuration:");
-      console.log(JSON.stringify(configuration, null, 2));
-
-      console.log("Current options:");
-      console.log(JSON.stringify(options, null, 2));
     },
 
     subcommands: {
