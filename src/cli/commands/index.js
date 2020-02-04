@@ -9,7 +9,7 @@ const rootCommand = ({ configuration }) => {
 
     optionDefinitions: [getBaseUrlOption(configuration)],
 
-    handle({ getUsage, options }) {
+    handle({ getUsage }) {
       console.log(getUsage({ commandPath: ["mrs"] }));
     },
 
