@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/yeldiRium/more-rubin-scraper/compare/v1.0.2...v1.1.0) (2020-02-05)
+
+
+### Features
+
+* Improve file path encoding. ([2643869](https://github.com/yeldiRium/more-rubin-scraper/commit/2643869c3c752ab7a7b48278589d01835b978f24))
+
 ## [1.0.2](https://github.com/yeldiRium/more-rubin-scraper/compare/v1.0.1...v1.0.2) (2020-02-04)
 
 
