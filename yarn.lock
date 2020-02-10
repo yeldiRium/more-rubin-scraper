@@ -1504,16 +1504,17 @@ command-line-commands@3.0.1:
   dependencies:
     array-back "^4.0.0"
 
-command-line-interface@^3.2.2:
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/command-line-interface/-/command-line-interface-3.2.2.tgz#aad2ec4e1f15159bb181f2af9967a81146460f67"
-  integrity sha512-qtDE6fshR+Q3q3kVAdmpYbZTz3lGGeVfslMt5dlm8s0zU+eA7kJxdPHlkcDHpIHvbEgLs9n8gsHd6dWybf7bfA==
+command-line-interface@^3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/command-line-interface/-/command-line-interface-3.4.0.tgz#1de1e149ebdd6137089bdf442ac52d0f8ec2e4e1"
+  integrity sha512-Rt8qlynNp00KgO9z04tbSUPbELdL/vnL2aCbVa9BVsMfpMlDUuQZdGDnUCuiN/y3U5uIZfZ/EP5s2A7KG3l7Pg==
   dependencies:
     command-line-args "5.1.1"
     command-line-commands "3.0.1"
     command-line-usage "6.1.0"
     defekt "5.0.1"
     string-similarity "4.0.1"
+    strip-indent "3.0.0"
 
 command-line-usage@6.1.0:
   version "6.1.0"
@@ -4608,6 +4609,11 @@ mimic-fn@^2.0.0, mimic-fn@^2.1.0:
   resolved "https://registry.yarnpkg.com/mimic-fn/-/mimic-fn-2.1.0.tgz#7ed2c2ccccaf84d3ffcb7a69b57711fc2083401b"
   integrity sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==
 
+min-indent@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/min-indent/-/min-indent-1.0.0.tgz#cfc45c37e9ec0d8f0a0ec3dd4ef7f7c3abe39256"
+  integrity sha1-z8RcN+nsDY8KDsPdTvf3w6vjklY=
+
 minimatch@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
@@ -6748,6 +6754,13 @@ strip-final-newline@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/strip-final-newline/-/strip-final-newline-2.0.0.tgz#89b852fb2fcbe936f6f4b3187afb0a12c1ab58ad"
   integrity sha512-BrpvfNAE3dcvq7ll3xVumzjKjZQ5tI1sEUIKr3Uoks0XUl45St3FlatVqef9prk4jRDzhW6WZg+3bk93y6pLjA==
+
+strip-indent@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/strip-indent/-/strip-indent-3.0.0.tgz#c32e1cee940b6b3432c771bc2c54bcce73cd3001"
+  integrity sha512-laJTa3Jb+VQpaC6DseHhF7dXVqHTfJPCRDaEbid/drOhgitgYku/letMUqOXFoWV0zIIUbjpdH2t+tYj4bQMRQ==
+  dependencies:
+    min-indent "^1.0.0"
 
 strip-indent@^2.0.0:
   version "2.0.0"
