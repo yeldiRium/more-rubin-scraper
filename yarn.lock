@@ -1504,10 +1504,10 @@ command-line-commands@3.0.1:
   dependencies:
     array-back "^4.0.0"
 
-command-line-interface@^3.5.1:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/command-line-interface/-/command-line-interface-3.5.1.tgz#c9a2f568f37b1f9a4407e50d0cfb497bfa0ec8f5"
-  integrity sha512-64y4v0C53ftET++r8Yp6TMoQeVrA/iMHP9N9xKEujYZ9LYOwu1N2A7BTTY5krq/MqLMEgXmVBsqSDKmucJeS+Q==
+command-line-interface@^3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/command-line-interface/-/command-line-interface-3.6.0.tgz#578254bdb82fe68075c5121f5f40d1679cb681bc"
+  integrity sha512-vMfaaaZsXyPSUQXVciiFUBmYzk7YEkXUjRXvN3PYmu4QQJHprlQIqNRiya+Cjw9kklgB8oJVKKPnws2wYLvyrw==
   dependencies:
     command-line-args "5.1.1"
     command-line-commands "3.0.1"
