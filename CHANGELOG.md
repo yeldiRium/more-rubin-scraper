@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/yeldiRium/more-rubin-scraper/compare/v1.1.5...v1.2.0) (2020-03-09)
+
+
+### Bug Fixes
+
+* Fix tagesordnungspunkt matching. ([87f1bc1](https://github.com/yeldiRium/more-rubin-scraper/commit/87f1bc1b1ae5826f7a2071209e57d9fac77097b1))
+
+
+### Features
+
+* Update dependencies and fix versions. ([95dc04e](https://github.com/yeldiRium/more-rubin-scraper/commit/95dc04ed994654ed77f95ad1539937b1ca81c074))
+
 ## [1.1.5](https://github.com/yeldiRium/more-rubin-scraper/compare/v1.1.4...v1.1.5) (2020-02-24)
 
 
