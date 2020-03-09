@@ -24,13 +24,13 @@
     "test:lint:fix": "eslint --fix \"**/*.js\""
   },
   "dependencies": {
-    "axios": "^0.19.2",
-    "command-line-interface": "^3.6.0",
-    "fast-html-parser": "^1.0.1",
-    "jquery": "^3.4.1",
-    "jsdom": "^16.2.0",
-    "rc": "^1.2.8",
-    "shelljs": "^0.8.3"
+    "axios": "0.19.2",
+    "command-line-interface": "3.6.0",
+    "fast-html-parser": "1.0.1",
+    "jquery": "3.4.1",
+    "jsdom": "16.2.0",
+    "rc": "1.2.8",
+    "shelljs": "0.8.3"
   },
   "devDependencies": {
     "@semantic-release/changelog": "5.0.0",
