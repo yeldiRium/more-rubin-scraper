@@ -22,7 +22,7 @@ const tagesordnungspunkt = async ({ baseUrl, tagesordnungspunktUrl }) => {
       .text()
       .trim();
 
-  const topRowMatch = /(?<index>\d+).\[(?<publicString>.+)\]/u.exec(
+  const topRowMatch = /(?<index>.+).\[(?<publicString>.+)\]/u.exec(
     getContentInRow("TOP-Nr")
   );
   const { index, publicString } = topRowMatch ? topRowMatch.groups : {};
