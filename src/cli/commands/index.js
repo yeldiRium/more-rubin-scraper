@@ -15,8 +15,8 @@ const rootCommand = ({ configuration }) => {
 
     subcommands: {
       download: download({ configuration }),
-      get: get({ configuration })
-    }
+      get: get({ configuration }),
+    },
   };
 };
 

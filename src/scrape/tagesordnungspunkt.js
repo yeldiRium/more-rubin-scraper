@@ -10,17 +10,13 @@ const tagesordnungspunkt = async ({ baseUrl, tagesordnungspunktUrl }) => {
   const { data } = await axios({
     method: "get",
     url: tagesordnungspunktUrl,
-    responseEncoding: "latin1"
+    responseEncoding: "latin1",
   });
 
   const $ = jQuery(new JSDOM(data).window);
 
-  const getContentInRow = name =>
-    $(`td:contains('${name}')`)
-      .next()
-      .next()
-      .text()
-      .trim();
+  const getContentInRow = (name) =>
+    $(`td:contains('${name}')`).next().next().text().trim();
 
   const topRowMatch = /(?<index>.+).\[(?<publicString>.+)\]/u.exec(
     getContentInRow("TOP-Nr")
@@ -77,7 +73,7 @@ const tagesordnungspunkt = async ({ baseUrl, tagesordnungspunktUrl }) => {
             .find("input[name='_vorl_nr']")
             .val()}&_nid_nr=${$form
             .find("input[name='_nid_nr']")
-            .val()}&_nk_nr=${$form.find("input[name='_nk_nr']").val()}`
+            .val()}&_nk_nr=${$form.find("input[name='_nk_nr']").val()}`,
         };
       })
       .get();
@@ -92,7 +88,7 @@ const tagesordnungspunkt = async ({ baseUrl, tagesordnungspunktUrl }) => {
     location,
     councils,
     vorlage,
-    anlagen
+    anlagen,
   };
 };
 

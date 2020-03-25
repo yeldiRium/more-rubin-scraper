@@ -13,7 +13,7 @@ const upcomingSitzungs = async ({ baseUrl }) => {
   const { data } = await axios({
     method: "get",
     url: baseUrl,
-    responseEncoding: "latin1"
+    responseEncoding: "latin1",
   });
 
   const $ = jQuery(new JSDOM(data).window);
@@ -36,7 +36,7 @@ const upcomingSitzungs = async ({ baseUrl }) => {
       return {
         url: `${baseUrl}/${$dateTd.find("a").prop("href")}`,
         date: $dateTd.text(),
-        name: $nameTd.text()
+        name: $nameTd.text(),
       };
     })
     .get();

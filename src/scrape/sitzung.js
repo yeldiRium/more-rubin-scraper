@@ -19,20 +19,15 @@ const sitzung = async ({ baseUrl, sitzungUrl, loadTops = false }) => {
   const { data } = await axios({
     method: "get",
     url: sitzungUrl,
-    responseEncoding: "latin1"
+    responseEncoding: "latin1",
   });
 
   const $ = jQuery(new JSDOM(data).window);
 
-  const getContentInRow = name =>
-    $(`td:contains('${name}')`)
-      .next()
-      .text()
-      .trim();
+  const getContentInRow = (name) =>
+    $(`td:contains('${name}')`).next().text().trim();
 
-  const title = $("b.Suchueberschrift")
-    .first()
-    .text();
+  const title = $("b.Suchueberschrift").first().text();
   const date = getContentInRow("Termin");
   const location = getContentInRow("Raum");
   const councils = getContentInRow("Gremien");
@@ -62,7 +57,7 @@ const sitzung = async ({ baseUrl, sitzungUrl, loadTops = false }) => {
         return {
           index,
           subject,
-          url
+          url,
         };
       })
       .get()
@@ -74,7 +69,7 @@ const sitzung = async ({ baseUrl, sitzungUrl, loadTops = false }) => {
     location,
     councils,
     invitees,
-    tagesordnungspunkts
+    tagesordnungspunkts,
   };
 };
 

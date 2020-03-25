@@ -23,19 +23,19 @@ const sitzung = () => {
         type: "string",
         description: "The sid of the Sitzung.",
         isRequired: true,
-        defaultOption: true
-      }
+        defaultOption: true,
+      },
     ],
 
     async handle({ options }) {
       const sitzungUrl = getSitzungUrl({
         baseUrl: options["base-url"],
-        sid: options["sid"]
+        sid: options["sid"],
       });
       const sitzung = await scrapeSitzung({
         baseUrl: options["base-url"],
         sitzungUrl,
-        loadTops: true
+        loadTops: true,
       });
       const sitzungPath = path.join(
         options["download-path"],
@@ -60,9 +60,9 @@ const sitzung = () => {
         }
         if (top.anlagen.length > 0) {
           downloads.push(
-            ...top.anlagen.map(anlage => ({
+            ...top.anlagen.map((anlage) => ({
               name: anlage.name,
-              url: anlage.url
+              url: anlage.url,
             }))
           );
         }
@@ -76,14 +76,14 @@ const sitzung = () => {
             const { data } = await axios({
               method: "get",
               url,
-              responseType: "stream"
+              responseType: "stream",
             });
 
             await pipeline(data, fileStream);
           })
         );
       }
-    }
+    },
   };
 };
 

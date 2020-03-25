@@ -13,8 +13,8 @@ const download = ({ configuration }) => {
     },
 
     subcommands: {
-      sitzung: sitzung({ configuration })
-    }
+      sitzung: sitzung({ configuration }),
+    },
   };
 };
 
