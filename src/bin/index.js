@@ -10,7 +10,7 @@ const rootCommand = require("../cli/commands");
   try {
     await runCli({
       rootCommand: rootCommand({ configuration }),
-      argv: process.argv
+      argv: process.argv,
     });
   } catch (ex) {
     console.log(ex);

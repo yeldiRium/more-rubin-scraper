@@ -12,30 +12,30 @@ const upcoming = () => {
         type: "string",
         description: "The sid of the Sitzung.",
         isRequired: true,
-        defaultOption: true
+        defaultOption: true,
       },
       {
         name: "load-tops",
         type: "boolean",
         description:
           "Whether to load Tagenordnungspunkt data or just display their names and urls.",
-        defaultValue: false
-      }
+        defaultValue: false,
+      },
     ],
 
     async handle({ options }) {
       const sitzungUrl = getSitzungUrl({
         baseUrl: options["base-url"],
-        sid: options["sid"]
+        sid: options["sid"],
       });
       const sitzung = await scrapeSitzung({
         baseUrl: options["base-url"],
         sitzungUrl,
-        loadTops: options["load-tops"]
+        loadTops: options["load-tops"],
       });
 
       console.log(JSON.stringify(sitzung, null, 2));
-    }
+    },
   };
 };
 

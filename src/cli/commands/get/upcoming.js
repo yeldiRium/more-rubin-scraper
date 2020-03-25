@@ -9,11 +9,11 @@ const upcoming = () => {
 
     async handle({ options }) {
       const upcomingSitzungs = await scrapeUpcomingSitzungs({
-        baseUrl: options["base-url"]
+        baseUrl: options["base-url"],
       });
 
       console.table(upcomingSitzungs);
-    }
+    },
   };
 };
 

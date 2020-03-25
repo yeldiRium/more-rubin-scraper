@@ -5,7 +5,7 @@ const rc = require("rc");
 const loadConfiguration = () => {
   return rc("mrs", {
     downloadPath: path.join(__dirname, "..", "download"),
-    baseUrl: undefined
+    baseUrl: undefined,
   });
 };
 

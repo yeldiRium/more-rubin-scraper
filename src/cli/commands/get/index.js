@@ -16,8 +16,8 @@ const get = ({ configuration }) => {
     subcommands: {
       sitzung: sitzung({ configuration }),
       tagesordnungspunkt: tagesordnungspunkt({ configuration }),
-      upcoming: upcoming({ configuration })
-    }
+      upcoming: upcoming({ configuration }),
+    },
   };
 };
 

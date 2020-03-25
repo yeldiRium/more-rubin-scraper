@@ -11,20 +11,20 @@ const upcoming = () => {
         name: "nid",
         type: "string",
         description: "The nid of the Tagesordnungspunkt.",
-        isRequired: true
+        isRequired: true,
       },
       {
         name: "vid",
         type: "string",
         description: "The vid of the Tagesordnungspunkt.",
-        isRequired: true
+        isRequired: true,
       },
       {
         name: "status",
         type: "string",
         description: "The status of the Tagesordnungspunkt.",
-        isRequired: true
-      }
+        isRequired: true,
+      },
     ],
 
     async handle({ options }) {
@@ -32,15 +32,15 @@ const upcoming = () => {
         baseUrl: options["base-url"],
         nid: options["nid"],
         vid: options["vid"],
-        status: options["status"]
+        status: options["status"],
       });
       const tagesordnungspunkt = await scrapeTagesordnungspunkt({
         baseUrl: options["base-url"],
-        tagesordnungspunktUrl
+        tagesordnungspunktUrl,
       });
 
       console.log(JSON.stringify(tagesordnungspunkt, null, 2));
-    }
+    },
   };
 };
 
