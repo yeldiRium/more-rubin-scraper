@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/yeldiRium/more-rubin-scraper/compare/v1.2.1...v1.2.2) (2020-04-03)
+
+
+### Bug Fixes
+
+* bump jsdom from 16.2.1 to 16.2.2 ([#27](https://github.com/yeldiRium/more-rubin-scraper/issues/27)) ([93c5864](https://github.com/yeldiRium/more-rubin-scraper/commit/93c5864b7e3617bfd9e2d3d64c3b194e859aad59))
+
 ## [1.2.1](https://github.com/yeldiRium/more-rubin-scraper/compare/v1.2.0...v1.2.1) (2020-03-10)
 
 
