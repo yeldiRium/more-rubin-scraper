@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/yeldiRium/more-rubin-scraper/compare/v1.2.3...v1.2.4) (2020-04-29)
+
+
+### Bug Fixes
+
+* bump shelljs from 0.8.3 to 0.8.4 ([#40](https://github.com/yeldiRium/more-rubin-scraper/issues/40)) ([c9e383b](https://github.com/yeldiRium/more-rubin-scraper/commit/c9e383b21a7162363bc880997a2086eed9fcfa92))
+
 ## [1.2.3](https://github.com/yeldiRium/more-rubin-scraper/compare/v1.2.2...v1.2.3) (2020-04-15)
 
 
