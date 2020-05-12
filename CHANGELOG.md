@@ -1,3 +1,10 @@
+## [1.2.5](https://github.com/yeldiRium/more-rubin-scraper/compare/v1.2.4...v1.2.5) (2020-05-12)
+
+
+### Bug Fixes
+
+* bump jquery from 3.5.0 to 3.5.1 ([#48](https://github.com/yeldiRium/more-rubin-scraper/issues/48)) ([d3fc126](https://github.com/yeldiRium/more-rubin-scraper/commit/d3fc126c8dfb419d8ffe183ff5888b30fdc3e674))
+
 ## [1.2.4](https://github.com/yeldiRium/more-rubin-scraper/compare/v1.2.3...v1.2.4) (2020-04-29)
 
 
