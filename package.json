@@ -27,7 +27,7 @@
     "axios": "0.19.2",
     "command-line-interface": "3.6.0",
     "fast-html-parser": "1.0.1",
-    "jquery": "3.5.0",
+    "jquery": "3.5.1",
     "jsdom": "16.2.2",
     "rc": "1.2.8",
     "shelljs": "0.8.4"
