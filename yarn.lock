@@ -744,6 +744,21 @@
   resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
   integrity sha512-rr+OQyAjxze7GgWrSaJwydHStIhHq2lvY3BOC2Mj7KnzI7XK0Uw1TOOdI9lDoajEbSWLiYgoo4f1R51erQfhPQ==
 
+"@types/command-line-args@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@types/command-line-args/-/command-line-args-5.0.0.tgz#484e704d20dbb8754a8f091eee45cdd22bcff28c"
+  integrity sha512-4eOPXyn5DmP64MCMF8ePDvdlvlzt2a+F8ZaVjqmh2yFCpGjc1kI3kGnCFYX9SCsGTjQcWIyVZ86IHCEyjy/MNg==
+
+"@types/command-line-commands@2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@types/command-line-commands/-/command-line-commands-2.0.1.tgz#0af49e059d8fed18d8c229c13645450da949f1cc"
+  integrity sha512-3cOzvwRdFS0w4NKeoAAjvRGM1ONSphUrvAs2uBIYIUW4uchXu/vm5GZPu6YNRb/wS7H8qt4uh1k0IF99eBF2Xg==
+
+"@types/command-line-usage@5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@types/command-line-usage/-/command-line-usage-5.0.1.tgz#99424950da567ba67b6b65caee57ff03c4e751ec"
+  integrity sha512-/xUgezxxYePeXhg5S04hUjxG9JZi+rJTs1+4NwpYPfSaS7BeDa6tVJkH6lN9Cb6rl8d24Fi2uX0s0Ngg2JT6gg==
+
 "@types/graceful-fs@^4.1.2":
   version "4.1.3"
   resolved "https://registry.yarnpkg.com/@types/graceful-fs/-/graceful-fs-4.1.3.tgz#039af35fe26bec35003e8d86d2ee9c586354348f"
@@ -810,6 +825,11 @@
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-1.0.1.tgz#0a851d3bd96498fa25c33ab7278ed3bd65f06c3e"
   integrity sha512-l42BggppR6zLmpfU6fq9HEa2oGPEI8yrSPL3GITjfRInppYFahObbIQOQK3UGxEnyQpltZLaPe75046NOZQikw==
+
+"@types/string-similarity@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@types/string-similarity/-/string-similarity-3.0.0.tgz#12b655f1aab0156049657a4e9287caf3e6718d93"
+  integrity sha512-vhHkPKxl0cudrbxr5Dog1HVgUGXtmyYP95qy1da/h5gFEzIqDMN/+SjJAS7/6DEAdeI+AJQX8zrdWXL3wP4FRA==
 
 "@types/yargs-parser@*":
   version "15.0.0"
@@ -1663,15 +1683,19 @@ command-line-commands@3.0.1:
   dependencies:
     array-back "^4.0.0"
 
-command-line-interface@3.6.0:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/command-line-interface/-/command-line-interface-3.6.0.tgz#578254bdb82fe68075c5121f5f40d1679cb681bc"
-  integrity sha512-vMfaaaZsXyPSUQXVciiFUBmYzk7YEkXUjRXvN3PYmu4QQJHprlQIqNRiya+Cjw9kklgB8oJVKKPnws2wYLvyrw==
+command-line-interface@3.6.1:
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/command-line-interface/-/command-line-interface-3.6.1.tgz#5c17513ded0bb86bfacfc2811ade4e768fd8a57c"
+  integrity sha512-CilMqeaw8qzilwQ08bpSdRsNCJWa/1cZ+mUZsvosEv7qvvGK7qhbgkkzG6Qaox+UDqnobWy3o7dl3y3RMfB3rw==
   dependencies:
+    "@types/command-line-args" "5.0.0"
+    "@types/command-line-commands" "2.0.1"
+    "@types/command-line-usage" "5.0.1"
+    "@types/string-similarity" "3.0.0"
     command-line-args "5.1.1"
     command-line-commands "3.0.1"
     command-line-usage "6.1.0"
-    defekt "5.0.1"
+    defekt "5.1.0"
     string-similarity "4.0.1"
     strip-indent "3.0.0"
 
@@ -1940,7 +1964,7 @@ debug@^3.1.0:
   dependencies:
     ms "^2.1.1"
 
-debuglog@*, debuglog@^1.0.1:
+debuglog@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/debuglog/-/debuglog-1.0.1.tgz#aa24ffb9ac3df9a2351837cfb2d279360cd78492"
   integrity sha1-qiT/uaw9+aI1GDfPstJ5NgzXhJI=
@@ -1997,10 +2021,10 @@ defaults@^1.0.3:
   dependencies:
     clone "^1.0.2"
 
-defekt@5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/defekt/-/defekt-5.0.1.tgz#111ebdf72d30699629b92d97815d5f11f09d1d1b"
-  integrity sha512-UIBq4ST84UXgEh7z5Hy8FX8NIwzMPEMoV3LP9JX/JS4XRQGnSeEgHO7RNQIbeqvWgjYKDMiTmn/YaELhJ4rEBg==
+defekt@5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/defekt/-/defekt-5.1.0.tgz#11ab752e13241d983a157c16f484889426297684"
+  integrity sha512-HxTr9DvB/tzzUI1+EybPi5jHHlz4Pe4WoEkf+lM7jf4uHDH/IuP/W+lO6gzYwgavp/Gn4QM5yGGAzMkX53v6fw==
   dependencies:
     humanize-string "2.1.0"
 
@@ -3216,7 +3240,7 @@ import-local@^3.0.2:
     pkg-dir "^4.2.0"
     resolve-cwd "^3.0.0"
 
-imurmurhash@*, imurmurhash@^0.1.4:
+imurmurhash@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/imurmurhash/-/imurmurhash-0.1.4.tgz#9218b9b2b928a238b13dc4fb6b6d576f231453ea"
   integrity sha1-khi5srkoojixPcT7a21XbyMUU+o=
@@ -4397,11 +4421,6 @@ lockfile@^1.0.4:
   dependencies:
     signal-exit "^3.0.2"
 
-lodash._baseindexof@*:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/lodash._baseindexof/-/lodash._baseindexof-3.1.0.tgz#fe52b53a1c6761e42618d654e4a25789ed61822c"
-  integrity sha1-/lK1OhxnYeQmGNZU5KJXie1hgiw=
-
 lodash._baseuniq@~4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/lodash._baseuniq/-/lodash._baseuniq-4.6.0.tgz#0ebb44e456814af7905c6212fa2c9b2d51b841e8"
@@ -4410,32 +4429,10 @@ lodash._baseuniq@~4.6.0:
     lodash._createset "~4.0.0"
     lodash._root "~3.0.0"
 
-lodash._bindcallback@*:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/lodash._bindcallback/-/lodash._bindcallback-3.0.1.tgz#e531c27644cf8b57a99e17ed95b35c748789392e"
-  integrity sha1-5THCdkTPi1epnhftlbNcdIeJOS4=
-
-lodash._cacheindexof@*:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/lodash._cacheindexof/-/lodash._cacheindexof-3.0.2.tgz#3dc69ac82498d2ee5e3ce56091bafd2adc7bde92"
-  integrity sha1-PcaayCSY0u5ePOVgkbr9Ktx73pI=
-
-lodash._createcache@*:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/lodash._createcache/-/lodash._createcache-3.1.2.tgz#56d6a064017625e79ebca6b8018e17440bdcf093"
-  integrity sha1-VtagZAF2JeeevKa4AY4XRAvc8JM=
-  dependencies:
-    lodash._getnative "^3.0.0"
-
 lodash._createset@~4.0.0:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/lodash._createset/-/lodash._createset-4.0.3.tgz#0f4659fbb09d75194fa9e2b88a6644d363c9fe26"
   integrity sha1-D0ZZ+7CddRlPqeK4imZE02PJ/iY=
-
-lodash._getnative@*, lodash._getnative@^3.0.0:
-  version "3.9.1"
-  resolved "https://registry.yarnpkg.com/lodash._getnative/-/lodash._getnative-3.9.1.tgz#570bc7dede46d61cdcde687d65d3eecbaa3aaff5"
-  integrity sha1-VwvH3t5G1hzc3mh9ZdPuy6o6r/U=
 
 lodash._root@~3.0.0:
   version "3.0.1"
@@ -4476,11 +4473,6 @@ lodash.isstring@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/lodash.isstring/-/lodash.isstring-4.0.1.tgz#d527dfb5456eca7cc9bb95d5daeaf88ba54a5451"
   integrity sha1-1SfftUVuynzJu5XV2ur4i6VKVFE=
-
-lodash.restparam@*:
-  version "3.6.1"
-  resolved "https://registry.yarnpkg.com/lodash.restparam/-/lodash.restparam-3.6.1.tgz#936a4e309ef330a7645ed4145986c85ae5b20805"
-  integrity sha1-k2pOMJ7zMKdkXtQUWYbIWuWyCAU=
 
 lodash.sortby@^4.7.0:
   version "4.7.0"
