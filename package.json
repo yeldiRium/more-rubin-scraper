@@ -24,7 +24,7 @@
     "test:lint:fix": "eslint --fix \"**/*.js\""
   },
   "dependencies": {
-    "axios": "0.19.2",
+    "axios": "0.20.0",
     "command-line-interface": "3.6.2",
     "fast-html-parser": "1.0.1",
     "jquery": "3.5.1",
