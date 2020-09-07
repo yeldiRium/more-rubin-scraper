@@ -1,3 +1,11 @@
+## [1.2.8](https://github.com/yeldiRium/more-rubin-scraper/compare/v1.2.7...v1.2.8) (2020-09-07)
+
+
+### Bug Fixes
+
+* bump axios from 0.19.2 to 0.20.0 ([cdc163a](https://github.com/yeldiRium/more-rubin-scraper/commit/cdc163aef8878754ea314a5dbc5e7458f9cae2a1))
+* bump jsdom from 16.3.0 to 16.4.0 ([4c9bade](https://github.com/yeldiRium/more-rubin-scraper/commit/4c9bade652d6b9a446a4856f17e7a2c4f9897b3e))
+
 ## [1.2.7](https://github.com/yeldiRium/more-rubin-scraper/compare/v1.2.6...v1.2.7) (2020-08-05)
 
 
