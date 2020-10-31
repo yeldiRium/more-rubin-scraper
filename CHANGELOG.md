@@ -1,3 +1,10 @@
+## [1.2.10](https://github.com/yeldiRium/more-rubin-scraper/compare/v1.2.9...v1.2.10) (2020-10-31)
+
+
+### Bug Fixes
+
+* bump axios from 0.20.0 to 0.21.0 ([#114](https://github.com/yeldiRium/more-rubin-scraper/issues/114)) ([94f9315](https://github.com/yeldiRium/more-rubin-scraper/commit/94f9315b09ed216341f8fa7c8b330f64e15731c9))
+
 ## [1.2.9](https://github.com/yeldiRium/more-rubin-scraper/compare/v1.2.8...v1.2.9) (2020-10-31)
 
 
