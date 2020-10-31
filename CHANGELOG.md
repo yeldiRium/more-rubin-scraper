@@ -1,3 +1,10 @@
+## [1.2.9](https://github.com/yeldiRium/more-rubin-scraper/compare/v1.2.8...v1.2.9) (2020-10-31)
+
+
+### Bug Fixes
+
+* bump command-line-interface from 3.6.2 to 3.6.5 ([#118](https://github.com/yeldiRium/more-rubin-scraper/issues/118)) ([a5117a9](https://github.com/yeldiRium/more-rubin-scraper/commit/a5117a92c39be2b5b0606de956b8bf00d88c6c0f))
+
 ## [1.2.8](https://github.com/yeldiRium/more-rubin-scraper/compare/v1.2.7...v1.2.8) (2020-09-07)
 
 
