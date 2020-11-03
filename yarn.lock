@@ -1726,24 +1726,24 @@ command-line-args@5.1.1:
     lodash.camelcase "^4.3.0"
     typical "^4.0.0"
 
-command-line-commands@3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/command-line-commands/-/command-line-commands-3.0.1.tgz#1d3e8ae0cf47359a3b282064f78c5d40797f1103"
-  integrity sha512-DYxDIdmOk3T6+aPgLOl+8JGmwpndfTlnSeFPjRzNIVTjPww6D0WuKvEh6mevn1gM/bWP3MIH2iTEO8QbxvteQg==
+command-line-commands@3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/command-line-commands/-/command-line-commands-3.0.2.tgz#53872a1181db837f21906b1228e260a4eeb42ee4"
+  integrity sha512-ac6PdCtdR6q7S3HN+JiVLIWGHY30PRYIEl2qPo+FuEuzwAUk0UYyimrngrg7FvF/mCr4Jgoqv5ZnHZgads50rw==
   dependencies:
-    array-back "^4.0.0"
+    array-back "^4.0.1"
 
-command-line-interface@3.6.5:
-  version "3.6.5"
-  resolved "https://registry.yarnpkg.com/command-line-interface/-/command-line-interface-3.6.5.tgz#eb70807dafe5a947a1ff76f8a6736ce184deb9dc"
-  integrity sha512-qIh3TfZp5/9u0ehxZtYu4IWHYOeBEWYbVarrZxlZW2hCCf8GKs+ajMNG4/iDIOc72O4I2bsd51cGuJo2JWjtLQ==
+command-line-interface@3.6.7:
+  version "3.6.7"
+  resolved "https://registry.yarnpkg.com/command-line-interface/-/command-line-interface-3.6.7.tgz#b92abcb96df70f9535df578296a336a95ec3014c"
+  integrity sha512-LbamyPZPjfWD75nxpySMWSc0GA0FF06qGPiAkg82FZCpMsar7s9IVmTEoq8kItHYLR5ArUCdbtEgoOYlOkaQaw==
   dependencies:
     "@types/command-line-args" "5.0.0"
     "@types/command-line-commands" "2.0.1"
     "@types/command-line-usage" "5.0.1"
     "@types/string-similarity" "3.0.0"
     command-line-args "5.1.1"
-    command-line-commands "3.0.1"
+    command-line-commands "3.0.2"
     command-line-usage "6.1.0"
     defekt "5.2.1"
     string-similarity "4.0.2"
