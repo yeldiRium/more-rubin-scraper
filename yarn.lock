@@ -1741,10 +1741,10 @@ command-line-commands@3.0.2:
   dependencies:
     array-back "^4.0.1"
 
-command-line-interface@3.6.15:
-  version "3.6.15"
-  resolved "https://registry.yarnpkg.com/command-line-interface/-/command-line-interface-3.6.15.tgz#d14dc48034d624265a3c77d898eb9322f5154500"
-  integrity sha512-kdvqPahHUDCZOs2c4gj36BQzc5b6tY0/iVc1xch5k1QP7avhP71SVhlFSoUXt3BrTGavwraQDzDidc741zuw8g==
+command-line-interface@3.6.16:
+  version "3.6.16"
+  resolved "https://registry.yarnpkg.com/command-line-interface/-/command-line-interface-3.6.16.tgz#92b1f3a82a6fd9a5f17e8fb2efcc4939f39a4739"
+  integrity sha512-e6LSA7xSZu3YTVbBomIqlgAgd6mzLuj21M1rRwakSKoAdu/F0U9+P5HuGbdbd/0/zvuLGHOFdBEmPaRwdTRT0g==
   dependencies:
     "@types/command-line-args" "5.0.0"
     "@types/command-line-commands" "2.0.1"
@@ -1754,7 +1754,7 @@ command-line-interface@3.6.15:
     command-line-commands "3.0.2"
     command-line-usage "6.1.1"
     defekt "6.0.1"
-    string-similarity "4.0.3"
+    string-similarity "4.0.4"
     strip-indent "3.0.0"
 
 command-line-usage@6.1.1:
@@ -6773,10 +6773,10 @@ string-length@^4.0.1:
     char-regex "^1.0.2"
     strip-ansi "^6.0.0"
 
-string-similarity@4.0.3:
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/string-similarity/-/string-similarity-4.0.3.tgz#ef52d6fc59c8a0fc93b6307fbbc08cc6e18cde21"
-  integrity sha512-QEwJzNFCqq+5AGImk5z4vbsEPTN/+gtyKfXBVLBcbPBRPNganZGfQnIuf9yJ+GiwSnD65sT8xrw/uwU1Q1WmfQ==
+string-similarity@4.0.4:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/string-similarity/-/string-similarity-4.0.4.tgz#42d01ab0b34660ea8a018da8f56a3309bb8b2a5b"
+  integrity sha512-/q/8Q4Bl4ZKAPjj8WerIBJWALKkaPRfrvhfF8k/B23i4nzrlRj2/go1m90In7nG/3XDSbOo0+pu6RvCTM9RGMQ==
 
 string-width@^1.0.1:
   version "1.0.2"
