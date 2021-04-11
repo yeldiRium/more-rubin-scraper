@@ -28,7 +28,7 @@
     "command-line-interface": "3.6.15",
     "fast-html-parser": "1.0.1",
     "jquery": "3.5.1",
-    "jsdom": "16.4.0",
+    "jsdom": "16.5.3",
     "rc": "1.2.8",
     "shelljs": "0.8.4"
   },
