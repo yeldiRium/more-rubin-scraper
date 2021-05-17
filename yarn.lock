@@ -1741,10 +1741,10 @@ command-line-commands@3.0.2:
   dependencies:
     array-back "^4.0.1"
 
-command-line-interface@3.6.15:
-  version "3.6.15"
-  resolved "https://registry.yarnpkg.com/command-line-interface/-/command-line-interface-3.6.15.tgz#d14dc48034d624265a3c77d898eb9322f5154500"
-  integrity sha512-kdvqPahHUDCZOs2c4gj36BQzc5b6tY0/iVc1xch5k1QP7avhP71SVhlFSoUXt3BrTGavwraQDzDidc741zuw8g==
+command-line-interface@4.0.6:
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/command-line-interface/-/command-line-interface-4.0.6.tgz#d26a86968b56e364728d1da1aae2dd2ecf41ab84"
+  integrity sha512-z/keeUSPsYuEKW4ioyQ4O1QF8HPfV8L8q2eLEpAIOij9PRKyIBB/2vOcvsyy4PltRYx4xe7PIP3qaf9mKYpkfw==
   dependencies:
     "@types/command-line-args" "5.0.0"
     "@types/command-line-commands" "2.0.1"
@@ -1753,8 +1753,8 @@ command-line-interface@3.6.15:
     command-line-args "5.1.1"
     command-line-commands "3.0.2"
     command-line-usage "6.1.1"
-    defekt "6.0.1"
-    string-similarity "4.0.3"
+    defekt "7.1.1"
+    string-similarity "4.0.4"
     strip-indent "3.0.0"
 
 command-line-usage@6.1.1:
@@ -2040,13 +2040,6 @@ decamelize@^1.1.0, decamelize@^1.1.1, decamelize@^1.2.0:
   resolved "https://registry.yarnpkg.com/decamelize/-/decamelize-1.2.0.tgz#f6534d15148269b20352e7bee26f501f9a191290"
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
-decamelize@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/decamelize/-/decamelize-2.0.0.tgz#656d7bbc8094c4c788ea53c5840908c9c7d063c7"
-  integrity sha512-Ikpp5scV3MSYxY39ymh45ZLEecsTdv/Xj2CaQfI8RLMuwi7XvjX9H/fhraiSuU+C5w5NTDu4ZU72xNiZnurBPg==
-  dependencies:
-    xregexp "4.0.0"
-
 decimal.js@^10.2.0:
   version "10.2.1"
   resolved "https://registry.yarnpkg.com/decimal.js/-/decimal.js-10.2.1.tgz#238ae7b0f0c793d3e3cea410108b35a2c01426a3"
@@ -2079,12 +2072,10 @@ defaults@^1.0.3:
   dependencies:
     clone "^1.0.2"
 
-defekt@6.0.1:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/defekt/-/defekt-6.0.1.tgz#92da61ac8e0e8c2be7cbd4a498e9bbe931580f8c"
-  integrity sha512-RGj88b/fr7BkL8GyW0Xxb5jYWifB0z67z4QG7GJNKNOjg007czsK+rUaWo7IjgsNV8vF/78pSQyjtkIx2WBwLg==
-  dependencies:
-    humanize-string "2.1.0"
+defekt@7.1.1:
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/defekt/-/defekt-7.1.1.tgz#3b3580baecb84c677317bc234fa7e1855d113d53"
+  integrity sha512-WNQADSlHnrKWz55lheREdeePFVe8nd5UzOU0qxIAAew5PLmDSblaIw7a+uPNWru4He6cjwuOUO2SoDFBFo8mew==
 
 define-properties@^1.1.3:
   version "1.1.3"
@@ -3278,13 +3269,6 @@ humanize-ms@^1.2.1:
   integrity sha1-xG4xWaKT9riW2ikxbYtv6Lt5u+0=
   dependencies:
     ms "^2.0.0"
-
-humanize-string@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/humanize-string/-/humanize-string-2.1.0.tgz#a7d7062e5e514e04f072607ded0df853be8a1f2f"
-  integrity sha512-sQ+hqmxyXW8Cj7iqxcQxD7oSy3+AXnIZXdUF9lQMkzaG8dtbKAB8U7lCtViMnwQ+MpdCKsO2Kiij3G6UUXq/Xg==
-  dependencies:
-    decamelize "^2.0.0"
 
 iconv-lite@0.4.24:
   version "0.4.24"
@@ -6773,10 +6757,10 @@ string-length@^4.0.1:
     char-regex "^1.0.2"
     strip-ansi "^6.0.0"
 
-string-similarity@4.0.3:
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/string-similarity/-/string-similarity-4.0.3.tgz#ef52d6fc59c8a0fc93b6307fbbc08cc6e18cde21"
-  integrity sha512-QEwJzNFCqq+5AGImk5z4vbsEPTN/+gtyKfXBVLBcbPBRPNganZGfQnIuf9yJ+GiwSnD65sT8xrw/uwU1Q1WmfQ==
+string-similarity@4.0.4:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/string-similarity/-/string-similarity-4.0.4.tgz#42d01ab0b34660ea8a018da8f56a3309bb8b2a5b"
+  integrity sha512-/q/8Q4Bl4ZKAPjj8WerIBJWALKkaPRfrvhfF8k/B23i4nzrlRj2/go1m90In7nG/3XDSbOo0+pu6RvCTM9RGMQ==
 
 string-width@^1.0.1:
   version "1.0.2"
@@ -7616,11 +7600,6 @@ xmlchars@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/xmlchars/-/xmlchars-2.2.0.tgz#060fe1bcb7f9c76fe2a17db86a9bc3ab894210cb"
   integrity sha512-JZnDKK8B0RCDw84FNdDAIpZK+JuJw+s7Lz8nksI7SIuU3UXJJslUthsi+uWBUYOwPFwW7W7PRLRfUKpxjtjFCw==
-
-xregexp@4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/xregexp/-/xregexp-4.0.0.tgz#e698189de49dd2a18cc5687b05e17c8e43943020"
-  integrity sha512-PHyM+sQouu7xspQQwELlGwwd05mXUFqwFYfqPO0cC7x4fxyHnnuetmQr6CjJiafIDoH4MogHb9dOoJzR/Y4rFg==
 
 xtend@~4.0.1:
   version "4.0.2"
