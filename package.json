@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "axios": "0.21.1",
-    "command-line-interface": "3.6.15",
+    "command-line-interface": "4.0.19",
     "fast-html-parser": "1.0.1",
     "jquery": "3.5.1",
     "jsdom": "16.4.0",
