@@ -1,3 +1,10 @@
+## [1.2.14](https://github.com/yeldiRium/more-rubin-scraper/compare/v1.2.13...v1.2.14) (2021-10-08)
+
+
+### Bug Fixes
+
+* Archive package. ([4809986](https://github.com/yeldiRium/more-rubin-scraper/commit/480998609e577f5e702fef8d71f2a6875c1810a4))
+
 ## [1.2.13](https://github.com/yeldiRium/more-rubin-scraper/compare/v1.2.12...v1.2.13) (2021-01-04)
 
 
