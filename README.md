@@ -1,5 +1,9 @@
 # More Rubin Scraper
 
+**This package is no longer maintained.**
+
+---
+
 A simple scraper for more-rubin's Ratsinformationssystem.
 
 Install via
